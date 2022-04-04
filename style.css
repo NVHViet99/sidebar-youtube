@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.line {
+  color: rgba(144, 144, 144, 0.5);
+  opacity: 0.8;
+}
+/* NAV BAR */
+img {
+  width: 35px;
+  height: 20px;
+  /* margin-left: 15px; */
+}
+
+.name-logo {
+  color: #333;
+  padding-top: 3px;
+  margin-left: 5px;
+  font-weight: 800;
+}
+
+.nation {
+  font-size: 9px;
+  margin-bottom: 7px;
+}
+
+#nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #fff;
+  width: 0;
+  /* margin-left: 15px; */
+}
+.nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #fff;
+  width: 0;
+  /* margin-left: 15px; */
+}
+
+#nav-bar i {
+  font-size: 20px;
+  color: #333;
+}
+
+#nav-bar a {
+  color: #fff;
+}
+
+.nav-bar i {
+  font-size: 20px;
+  color: #333;
+}
+
+.nav-bar a {
+  color: #fff;
+}
+
+.hide {
+  opacity: 0;
+}
+/* MENU */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  transition: 0.25s;
+  z-index: 2;
+  overflow-y: scroll;
+}
+
+.menu-bar-inside {
+  margin-left: 2px;
+}
+
+.menu-bar-outside {
+  margin-right: 30px;
+  padding-top: 4px;
+}
+
+.hide-menu {
+  left: -100%;
+  transition: 0.25s;
+}
+
+.nav-menu ul {
+  list-style: none;
+}
+
+.menu-icon {
+  width: 50px;
+  height: 10px;
+  font-size: 18px;
+  color: #333;
+}
+.menu-tag {
+  color: #333;
+}
+.nav-content {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  justify-content: start;
+  padding: 14px 20px;
+}
+
+.nav-content:hover {
+  background-color: rgba(144, 144, 144, 0.2);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  font-weight: 500;
+  justify-content: start;
+  padding: 14px 20px;
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.content {
+  margin-left: 15rem;
+  transition: 0.25s;
+}
+
+.nav-content-text {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 15px 25px 10px 25px;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+  transition: 0.25s;
+}
+
+.fixed {
+  width: 40px;
+}
+
+/* SIGN IN */
+.sign-in {
+  padding: 1rem 25px;
+}
+
+.content-signin {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.btn-signin {
+  display: flex;
+  color: #185adb;
+  padding: 6px 15px;
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid #185adb;
+}
+.btn-signin:hover {
+  cursor: pointer;
+}
+
+.btn-user {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.tag-btn {
+  font-size: 13.5px;
+}
+
+/* MENU FOOTER */
+.menu-footer {
+  padding-left: 25px;
+  padding-right: 6px;
+  font-size: 11px;
+}
+
+.menu-footer a {
+  padding-right: 3.5px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu-footer-primary {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.menu-footer-secondary {
+  margin-bottom: 10px;
+}
+
+.coppyright {
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9d9d9d;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7f7c82;
+}
