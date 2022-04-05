@@ -13,52 +13,84 @@
   </head>
 
   <body>
-    <div class="container overlay">
+    <div class="container">
       <div class="sidebar">
-        <div id="nav-bar hide" class="nav-bar hide">
+        <div id="nav-bar" class="nav-bar">
           <a href="#" class="menu-bar menu-bar-outside"
             ><i class="fa-solid fa-bars"></i
           ></a>
-          <img class="logo-nav" src="logo.svg" alt="" />
-          <p class="name-logo">YouTube</p>
+          <img class="logo-nav" src="./images/logo.png" alt="" />
+          <!-- <p class="name-logo">YouTube</p> -->
           <p class="nation">VN</p>
         </div>
-        <nav class="nav-menu" id="nav-menu ">
+        <ul class="nav-menu-hiden">
+          <div class="menu-section">
+            <li class="icon-hiden active">
+              <!-- <i class="fa fa-house"></i> -->
+              <img src="images/icon-home--active.svg" alt="" />
+              <span class="menu-tag-hidden">Home</span>
+            </li>
+            <li class="icon-hiden">
+              <!-- <i class="fa fa-compass"></i> -->
+              <img src="/images/icon-explore.svg" alt="" />
+              <span class="menu-tag-hidden">Explore</span>
+            </li>
+            <li class="icon-hiden">
+              <!-- <i class="fa fa-meteor"></i> -->
+              <img src="/images/icon-shorts.svg" alt="" />
+              <span class="menu-tag-hidden">Shorts</span>
+            </li>
+            <li class="icon-hiden">
+              <!-- <i class="fa fa-youtube"></i> -->
+              <img src="/images/icon-subscription.svg" alt="" />
+              <span class="menu-tag-hidden">Subscriptions</span>
+            </li>
+            <li class="icon-hiden">
+              <!-- <i class="fa fa-receipt"></i> -->
+              <img src="/images/icon-library.svg" alt="" />
+              <span class="menu-tag-hidden">Library</span>
+            </li>
+            <li class="icon-hiden">
+              <!-- <i class="fa fa-history"></i> -->
+              <img src="/images/icon-history.svg" alt="" />
+              <span class="menu-tag-hidden">History</span>
+            </li>
+          </div>
+        </ul>
+        <nav class="nav-menu hide-menu" id="nav-menu ">
           <ul class="nav-menu-items">
-            <div id="nav-bar">
-              <a href="#" class="menu-bar menu-bar-inside"
-                ><i class="fa-solid fa-bars menu-icon"></i
-              ></a>
-              <img class="logo-nav" src="logo.svg" alt="" />
-              <p class="name-logo">YouTube</p>
-              <p class="nation">VN</p>
-            </div>
             <div class="menu-section">
               <li class="nav-content active">
-                <i class="fa fa-house menu-icon"></i>
+                <!-- <i class="fa fa-house menu-icon"></i> -->
+                <img src="/images/icon-home--active.svg" alt="" />
                 <span class="menu-tag">Home</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-compass menu-icon"></i>
+                <!-- <i class="fa fa-compass menu-icon"></i> -->
+                <img src="images/icon-explore.svg" alt="" />
                 <span class="menu-tag">Explore</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-meteor menu-icon"></i>
+                <!-- <i class="fa fa-meteor menu-icon"></i> -->
+                <img src="/images/icon-shorts.svg" alt="" />
                 <span class="menu-tag">Shorts</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-youtube menu-icon"></i>
+                <!-- <i class="fa fa-youtube menu-icon"></i> -->
+                <img src="/images/icon-subscription.svg" alt="" />
                 <span class="menu-tag">Subscriptions</span>
               </li>
             </div>
             <hr class="line" />
             <div class="menu-section">
               <li class="nav-content">
-                <i class="fa fa-receipt menu-icon"></i>
+                <!-- <i class="fa fa-receipt menu-icon"></i> -->
+                <img src="/images/icon-library.svg" alt="" />
                 <span class="menu-tag">Library</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-history menu-icon"></i>
+                <!-- <i class="fa fa-history menu-icon"></i> -->
+                <img src="/images/icon-history.svg" alt="" />
                 <span class="menu-tag">History</span>
               </li>
             </div>
@@ -76,27 +108,33 @@
             <div class="menu-section">
               <p class="nav-content-text">BEST FOR YOUTUBE</p>
               <li class="nav-content">
-                <i class="fa fa-music menu-icon"></i>
+                <!-- <i class="fa fa-music menu-icon"></i> -->
+                <img src="images/icon-music.svg" alt="" />
                 <span class="menu-tag">Music</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-trophy menu-icon"></i>
+                <!-- <i class="fa fa-trophy menu-icon"></i> -->
+                <img src="images/icon-sports.svg" alt="" />
                 <span class="menu-tag">Sports</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-heart menu-icon"></i>
+                <!-- <i class="fa fa-heart menu-icon"></i> -->
+                <img src="/images/icon-gaming.svg" alt="" />
                 <span class="menu-tag">Gamming</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-file-alt menu-icon"></i>
+                <!-- <i class="fa fa-file-alt menu-icon"></i> -->
+                <img src="/images/icon-news.svg" alt="" />
                 <span class="menu-tag">News</span>
               </li>
               <li class="nav-content">
-                <i class="fas fa-satellite-dish menu-icon"></i>
+                <!-- <i class="fas fa-satellite-dish menu-icon"></i> -->
+                <img src="/images/icon-live.svg" alt="" />
                 <span class="menu-tag">Live</span>
               </li>
               <li class="nav-content">
-                <i class="fa fa-mask menu-icon"></i>
+                <!-- <i class="fa fa-mask menu-icon"></i> -->
+                <img src="/images/icon-360-video.svg" alt="" />
                 <span class="menu-tag">360°Video</span>
               </li>
             </div>
@@ -104,6 +142,7 @@
             <div class="menu-section">
               <li class="nav-content">
                 <i class="fas fa-plus-circle menu-icon"></i>
+                <!-- <img src="/images/icon-feedback.svg" alt="" /> -->
                 <span class="menu-tag">Browse channels</span>
               </li>
             </div>
@@ -112,26 +151,31 @@
             <p class="nav-content-text">MORE FROM YOUTUBE</p>
             <div class="menu-section">
               <li class="nav-content">
-                <i class="fas fa-satellite-dish menu-icon"></i>
+                <!-- <i class="fas fa-satellite-dish menu-icon"></i> -->
+                <img src="/images/icon-live.svg" alt="" />
                 <span class="menu-tag">Live</span>
               </li>
             </div>
             <hr class="line" />
             <div class="menu-section">
               <li class="nav-content">
-                <i class="fas fa-cog menu-icon"></i>
+                <!-- <i class="fas fa-cog menu-icon"></i> -->
+                <img src="/images/icon-settings.svg" alt="" />
                 <span class="menu-tag">Setting</span>
               </li>
               <li class="nav-content">
-                <i class="far fa-flag menu-icon"></i>
+                <!-- <i class="far fa-flag menu-icon"></i> -->
+                <img src="/images/icon-report.svg" alt="" />
                 <span class="menu-tag">Report history</span>
               </li>
               <li class="nav-content">
-                <i class="far fa-question-circle menu-icon"></i>
+                <!-- <i class="far fa-question-circle menu-icon"></i> -->
+                <img src="/images/icon-help.svg" alt="" />
                 <span class="menu-tag">Help</span>
               </li>
               <li class="nav-content">
-                <i class="far fa-comment-alt menu-icon"></i>
+                <!-- <i class="far fa-comment-alt menu-icon"></i> -->
+                <img src="/images/icon-feedback.svg" alt="" />
                 <span class="menu-tag">Send feedback</span>
               </li>
             </div>

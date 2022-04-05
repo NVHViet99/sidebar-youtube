@@ -6,18 +6,25 @@ const sideBar = document.querySelector('.container');
 const navContent = document.querySelectorAll('.nav-content');
 const navBar = document.querySelector('.nav-bar');
 
+function hasClass(element, cls) {
+  return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+}
+document.querySelector('.content').style.marginLeft = '5rem';
+
 openBtn.addEventListener('click', function () {
-  showMenu.classList.remove('hide-menu');
-  document.querySelector('.content').style.marginLeft = '15rem';
-  sideBar.classList.add('overlay');
-  navBar.classList.add('hide');
+  if (hasClass(showMenu, 'hide-menu')) {
+    showMenu.classList.remove('hide-menu');
+    document.querySelector('.content').style.marginLeft = '15rem';
+  } else {
+    showMenu.classList.add('hide-menu');
+    document.querySelector('.content').style.marginLeft = '5rem';
+  }
 });
+// const closeSieBar = function () {
+//   // sideBar.classList.remove('overlay');
+//   document.querySelector('.content').style.marginLeft = '23px';
+//   navBar.classList.remove('hide');
+//   showMenu.classList.add('hide-menu');
+// };
 
-const closeSieBar = function () {
-  sideBar.classList.remove('overlay');
-  document.querySelector('.content').style.marginLeft = '23px';
-  navBar.classList.remove('hide');
-  showMenu.classList.add('hide-menu');
-};
-
-openBtnInside.addEventListener('click', closeSieBar);
+// openBtnInside.addEventListener('click', closeSieBar);
