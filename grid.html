@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid css</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: antiquewhite">div 1</div>
+      <div style="background-color: aquamarine">
+        div 2
+        <p>Text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: antiquewhite; height: 150px">1fr</div>
+      <div style="background-color: aquamarine; height: 150px">1fr</div>
+      <div style="background-color: blueviolet; height: 150px">1fr</div>
+      <div style="background-color: blueviolet; height: 150px">1fr</div>
+      <div style="background-color: aquamarine; height: 150px">1fr</div>
+      <div style="background-color: antiquewhite; height: 150px">1fr</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 200px 75px">
+      <div style="background-color: aquamarine">200px</div>
+      <div style="background-color: antiquewhite">75px</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 50px 1fr 75px">
+      <div style="background-color: aquamarine">50px</div>
+      <div style="background-color: antiquewhite">1fr</div>
+      <div style="background-color: aquamarine">75px</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      "
+    >
+      <div style="background-color: aquamarine">1fr</div>
+      <div style="background-color: antiquewhite">1fr</div>
+      <div style="background-color: aquamarine">1fr</div>
+      <div style="background-color: antiquewhite">1fr</div>
+      <div style="background-color: antiquewhite">1fr</div>
+      <div style="background-color: aquamarine">1fr</div>
+      <div style="background-color: antiquewhite">1fr</div>
+      <div style="background-color: aquamarine">1fr</div>
+    </div>
+  </body>
+</html>

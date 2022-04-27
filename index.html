@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube-Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img src="/icons/hamburger-menu.svg" class="hamburger-menu" alt="">
+        <img src="/icons/youtube-logo.svg " class="youtube-logo" alt="">
+      </div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" class="search-bar">
+        <button class="search-btn">
+          <img src="/icons/search.svg" class="search-icon" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-btn">
+          <img src="/icons/voice-search-icon.svg" class="voice-icon" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-container">
+          <img src="/icons/upload.svg" alt="" class="upload-icon">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-container">
+          <img src="/icons/youtube-apps.svg" alt="" class="youtube-apps-icon">
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        <div class="icon-notify-container">
+          <div class="notify-container">
+            <img src="/icons/notifications.svg" alt="" class="notifications-icon">
+          <div class="tooltip">Notifications</div>
+          </div>
+          <div class="notify-count">3</div>
+        </div>
+        
+        <img src="/img/aTri.jpg" alt="" class="current-user">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+     <div class="sidebar-link">
+       <img src="/icons/youtube/icon-home--active.svg" alt="">
+       <div>Home</div>
+     </div>
+       <div class="sidebar-link">
+       <img src="/icons/youtube/icon-subscription.svg" alt="">
+       <div>Explore</div>
+       </div>
+     <div class="sidebar-link">
+      <img src="/icons/youtube/icon-shorts.svg" alt="">
+      <div>Subscriptions</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="/icons/youtube/icon-library.svg" alt="">
+      <div>Library</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="/icons/youtube/icon-history.svg" alt="">
+      <div>History</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="/icons/youtube/icon-help.svg" alt="">
+      <div>History</div>
+     </div>
+    </nav>
+<main>
+    <section class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=6WM3nPNu-lA&ab_channel=TUY%E1%BA%BETPH%C6%AF%E1%BB%A2NG">
+        <img src="/img/vuonxua.webp" alt="" class="image-content"/>
+        </a>
+        <div class="time-video">20:14</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/tuyetphuong.jpg" alt="" class="channel-picture"/>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/tuyetphuong.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                TUYẾT PHƯỢNG
+              </div>
+              <div class="channel-tooltip-stats">
+                1M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            VƯỜN XƯA | TRỊNH CÔNG SƠN || TUYẾT PHƯỢNG x PIABELPIA | Cha Đàn Con Hát
+          </p>
+          <p class="video-author">TUYẾT PHƯỢNG</p>
+          <p class="video-status">7N views &#183 1 day ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=AGx7OIlhI9w&ab_channel=Th%C6%B0%C6%A1ngTh%C3%B4i">
+        <img src="/img/itthoiemnhe.webp" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">03:11</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/music.jpg" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/music.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Thương Thôi
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Ít Thôi nhé Không Nhiều lofi, Ít Nhưng Dài Lâu, Kiếp Tương Tư, Ước Hẹn Lofi
+          </p>
+          <p class="video-author">Thương Thôi</p>
+          <p class="video-status">5.8M views &#183 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=Nloq6uzF8RQ&ab_channel=KevinPowell">
+        <img src="/img/cssTransition.webp" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">1:22:14</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/cssTransition.jpg" alt="" class="channel-picture"/>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/cssTransition.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Kevin Powell
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Animating with CSS Transitions - A look at the transition properties
+          </p>
+          <p class="video-author">Kevin Powell</p>
+          <p class="video-status">404N views &#183 4 years ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=ZaNRs4HTM4A&ab_channel=Nguy%E1%BB%85nH%E1%BB%AFuTr%C3%AD">
+        <img src="/img/anhTri.webp" alt="" class="image-content"/>
+        </a>
+        <div class="time-video">26:33</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/aTri.jpg" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/aTri.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Nguyễn Hữu Trí
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Kiểu người hay CHẦN CHỪ và KHÓ LỰA CHỌN (xem ngay để QUYẾT ĐỊNH NHANH và CHÍNH XÁC)
+          </p>
+          <p class="video-author">Nguyễn Hữu Trí</p>
+          <p class="video-status">11K views &#183 12 hours ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=orEKKLT2cf4&ab_channel=KplusSports">
+          <img src="/img/mu.webp" alt="" class="image-content"/>
+        </a>
+        <div class="time-video">50:28</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/kplus.jpg" alt="" class="channel-picture"/>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/kplus.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Kplus Sports
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            MANCHESTER UNITED - NORWICH CITY | RONALDO - HATTRICK BÙNG NỔ, QUỶ ĐỎ TRỞ LẠI
+          </p>
+          <p class="video-author">Kplus Sports</p>
+          <p class="video-status">688N views &#183 9 hours ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=GBMbCrmg0Gc&ab_channel=HieuNguyen">
+        <img src="/img/aHieu.webp" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">23:33</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/hieutv.jpg" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/hieutv.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Hieu Nguyen 
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Để đầu tư thành công trên thị trường chứng khoán
+          </p>
+          <p class="video-author">Hieu Nguyen</p>
+          <p class="video-status">74K views &#183 1 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=GBMbCrmg0Gc&ab_channel=HieuNguyen">
+        <img src="https://i.ytimg.com/vi/_yn0Cnvcu3M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNUkeNFhQKYPy3IESwdZz3ePE6VQ" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">23:33</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="https://yt3.ggpht.com/ytc/AKedOLSp8ZXrP-3hcIgvqVSEuA0981KjyLqrc_-RtX7yFw=s68-c-k-c0x00ffffff-no-rj" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="https://yt3.ggpht.com/ytc/AKedOLSp8ZXrP-3hcIgvqVSEuA0981KjyLqrc_-RtX7yFw=s68-c-k-c0x00ffffff-no-rj">
+            <div>
+              <div class="channel-tooltip-name">
+                Dua leo
+              </div>
+              <div class="channel-tooltip-stats">
+                887k subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            NGƯNG chạy theo SỰ CÔNG NHẬN của SỐ ĐÔNG!  [TamLyNe - DLDBTT] 
+          </p>
+          <p class="video-author">Dua Leo</p>
+          <p class="video-status">136K views &#183 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=GBMbCrmg0Gc&ab_channel=HieuNguyen">
+        <img src="/img/aHieu.webp" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">23:33</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/hieutv.jpg" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/hieutv.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Dua Leo
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Để đầu tư thành công trên thị trường chứng khoán
+          </p>
+          <p class="video-author">Hieu Nguyen</p>
+          <p class="video-status">136K views &#183 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=GBMbCrmg0Gc&ab_channel=HieuNguyen">
+        <img src="/img/aHieu.webp" alt="" class="image-content"/>
+      </a>
+        <div class="time-video">23:33</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img src="img/hieutv.jpg" alt=""class="channel-picture" />
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="img/hieutv.jpg">
+            <div>
+              <div class="channel-tooltip-name">
+                Hieu Nguyen 
+              </div>
+              <div class="channel-tooltip-stats">
+                1.2M subscribers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-infor">
+          <p class="video-title">
+            Để đầu tư thành công trên thị trường chứng khoán
+          </p>
+          <p class="video-author">Hieu Nguyen</p>
+          <p class="video-status">136K views &#183 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <nav class="nav-menu hide-menu" id="nav-menu ">
+      <ul class="nav-menu-items">
+        <div class="menu-section">
+          <li class="nav-content active">
+            <!-- <i class="fa fa-house menu-icon"></i> -->
+            <img src="/img/icon-home--active.svg" alt="" />
+            <span class="menu-tag">Home</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-compass menu-icon"></i> -->
+            <img src="img/icon-explore.svg" alt="" />
+            <span class="menu-tag">Explore</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-meteor menu-icon"></i> -->
+            <img src="/img/icon-shorts.svg" alt="" />
+            <span class="menu-tag">Shorts</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-youtube menu-icon"></i> -->
+            <img src="/img/icon-subscription.svg" alt="" />
+            <span class="menu-tag">Subscriptions</span>
+          </li>
+        </div>
+        <hr class="line" />
+        <div class="menu-section">
+          <li class="nav-content">
+            <!-- <i class="fa fa-receipt menu-icon"></i> -->
+            <img src="/img/icon-library.svg" alt="" />
+            <span class="menu-tag">Library</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-history menu-icon"></i> -->
+            <img src="/img/icon-history.svg" alt="" />
+            <span class="menu-tag">History</span>
+          </li>
+        </div>
+        <hr class="line" />
+        <div class="sign-in">
+          <p class="content-signin">
+            Sign in to like videos, <br />
+            comment, and subscribe.
+          </p>
+          <button class="btn-signin">
+            <i class="far fa-user-circle btn-user"></i
+            ><span class="tag-btn">SIGN IN</span>
+          </button>
+        </div>
+        <hr class="line" />
+        <div class="menu-section">
+          <p class="nav-content-text">BEST FOR YOUTUBE</p>
+          <li class="nav-content">
+            <!-- <i class="fa fa-music menu-icon"></i> -->
+            <img src="img/icon-music.svg" alt="" />
+            <span class="menu-tag">Music</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-trophy menu-icon"></i> -->
+            <img src="img/icon-sports.svg" alt="" />
+            <span class="menu-tag">Sports</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-heart menu-icon"></i> -->
+            <img src="/img/icon-gaming.svg" alt="" />
+            <span class="menu-tag">Gamming</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-file-alt menu-icon"></i> -->
+            <img src="/img/icon-news.svg" alt="" />
+            <span class="menu-tag">News</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fas fa-satellite-dish menu-icon"></i> -->
+            <img src="/img/icon-live.svg" alt="" />
+            <span class="menu-tag">Live</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="fa fa-mask menu-icon"></i> -->
+            <img src="/img/icon-360-video.svg" alt="" />
+            <span class="menu-tag">360°Video</span>
+          </li>
+        </div>
+        <hr class="line" />
+        <div class="menu-section">
+          <li class="nav-content">
+            <i class="fas fa-plus-circle menu-icon"></i>
+            <!-- <img src="/img/icon-feedback.svg" alt="" /> -->
+            <span class="menu-tag">Browse channels</span>
+          </li>
+        </div>
+        <hr class="line" />
+  
+        <p class="nav-content-text">MORE FROM YOUTUBE</p>
+        <div class="menu-section">
+          <li class="nav-content">
+            <!-- <i class="fas fa-satellite-dish menu-icon"></i> -->
+            <img src="/img/icon-live.svg" alt="" />
+            <span class="menu-tag">Live</span>
+          </li>
+        </div>
+        <hr class="line" />
+        <div class="menu-section">
+          <li class="nav-content">
+            <!-- <i class="fas fa-cog menu-icon"></i> -->
+            <img src="/img/icon-settings.svg" alt="" />
+            <span class="menu-tag">Setting</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="far fa-flag menu-icon"></i> -->
+            <img src="/img/icon-report.svg" alt="" />
+            <span class="menu-tag">Report history</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="far fa-question-circle menu-icon"></i> -->
+            <img src="/img/icon-help.svg" alt="" />
+            <span class="menu-tag">Help</span>
+          </li>
+          <li class="nav-content">
+            <!-- <i class="far fa-comment-alt menu-icon"></i> -->
+            <img src="/img/icon-feedback.svg" alt="" />
+            <span class="menu-tag">Send feedback</span>
+          </li>
+        </div>
+        <hr class="line" />
+        <div class="menu-footer">
+          <div class="menu-footer-primary">
+            <a href="" class="link">About</a>
+            <a href="" class="link">Press</a>
+            <a href="" class="link">Copyright</a>
+            <div>
+              <a href="" class="link">Contact us</a>
+              <a href="" class="link">Creator</a>
+            </div>
+            <a href="" class="link">Advertise</a>
+            <a href="" class="link">Developer</a>
+          </div>
+          <div class="menu-footer-secondary">
+            <a href="" class="link">Terms</a>
+            <a href="" class="link">Privacy</a>
+            <a href="" class="link">Policy & Safety</a>
+            <div>
+              <a href="" class="link">How Youtube works</a>
+            </div>
+            <a href="" class="link">Test new features</a>
+          </div>
+          <div class="coppyright">© 2022 Google LLC</div>
+        </div>
+      </ul>
+    </nav>
+  </section>
+ 
+</main>
+  </body>
+  <script src="main.js"></script>
+
+</html>

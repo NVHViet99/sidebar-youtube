@@ -1,0 +1,284 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  width: 72px;
+  background-color: white;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 76px;
+}
+.sidebar-link img {
+  margin-bottom: 4px;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+}
+
+/*  */
+#nav-bar {
+  position: fixed;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 25px;
+  background-color: #fff;
+  width: 100%;
+  /* margin-left: 15px; */
+}
+.nav-bar {
+  position: fixed;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #fff;
+  width: 0;
+  /* margin-left: 15px; */
+}
+
+#nav-bar i {
+  font-size: 20px;
+  color: #333;
+}
+
+#nav-bar a {
+  color: #fff;
+}
+
+.nav-bar i {
+  font-size: 20px;
+  color: #333;
+}
+
+.nav-bar a {
+  color: #fff;
+}
+
+/* .hide {
+  opacity: 0;
+} */
+/* MENU */
+.nav-menu {
+  position: fixed;
+  top: 49px;
+  height: 92%;
+  width: 250px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  /* transition: 0.25s; */
+  /* z-index: 2; */
+  overflow: hidden;
+}
+
+.nav-menu:hover {
+  overflow-y: scroll;
+}
+/* nav menu hiden */
+.nav-menu-hiden {
+  position: fixed;
+  top: 60px;
+}
+
+.menu-hiden {
+  display: none;
+}
+
+/* .menu-hiden {
+  opacity: 0;
+} */
+
+.menu-bar-inside {
+  margin-left: 2px;
+}
+
+.menu-bar-outside {
+  margin-right: 27px;
+  padding-top: 4px;
+}
+
+.hide-menu {
+  left: -100%;
+  transition: 0.25s;
+  display: none;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding-left: 4px;
+}
+
+.menu-icon {
+  /* width: 50px; */
+  height: 10px;
+  font-size: 23px;
+  color: #333;
+}
+.menu-tag {
+  font-size: 14px;
+  color: #333;
+  margin-left: 25px;
+  padding-top: 4px;
+}
+.nav-content {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  justify-content: start;
+  padding: 8px 20px;
+}
+
+.nav-content:hover {
+  background-color: rgba(144, 144, 144, 0.2);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  font-weight: 500;
+  justify-content: start;
+  padding: 8px 20px;
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+.icon-hiden {
+  padding: 8px 32px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-tag-hidden {
+  padding-top: 7px;
+}
+
+.nav-menu-hiden span {
+  font-size: 10px;
+}
+
+.icon-hiden:hover {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.content {
+  margin-left: 15rem;
+  transition: 0.25s;
+  padding-top: 56px;
+}
+
+.nav-content-text {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 15px 25px 10px 20px;
+  color: #606060;
+}
+
+.sign-in {
+  padding: 1rem 25px;
+}
+
+.content-signin {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.btn-signin {
+  display: flex;
+  color: #185adb;
+  padding: 6px 15px;
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid #185adb;
+  border-radius: 2px;
+}
+.btn-signin:hover {
+  cursor: pointer;
+}
+
+.btn-user {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.tag-btn {
+  font-size: 13.5px;
+}
+
+/* MENU FOOTER */
+.menu-footer {
+  padding-left: 25px;
+  padding-right: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.menu-footer a {
+  color: #606060;
+  padding-right: 3.5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu-footer-primary {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.menu-footer-secondary {
+  margin-bottom: 14px;
+}
+
+.coppyright {
+  font-size: 12px;
+  padding-bottom: 14px;
+  font-weight: 400;
+  color: #909090;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9d9d9d;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7f7c82;
+}
