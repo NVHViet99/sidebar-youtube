@@ -213,11 +213,12 @@
 
 .btn-signin {
   display: flex;
-  color: #185adb;
+  align-items: center;
+  color: rgb(6, 95, 212);
   padding: 6px 15px;
   background-color: #fff;
   font-weight: 500;
-  border: 1px solid #185adb;
+  border: 1px solid rgb(6, 95, 212);
   border-radius: 2px;
 }
 .btn-signin:hover {
@@ -225,12 +226,14 @@
 }
 
 .btn-user {
-  font-size: 18px;
+  font-size: 21px;
   margin-right: 10px;
 }
 
 .tag-btn {
-  font-size: 13.5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* MENU FOOTER */

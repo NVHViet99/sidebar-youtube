@@ -8,6 +8,7 @@
   width: 100%;
   z-index: 10;
   align-items: center;
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .chip-filter {
@@ -29,6 +30,10 @@
   color: #fff;
 }
 
+.chip-filter:hover {
+  cursor: pointer;
+}
+
 .chip-content {
   padding-bottom: 2px;
   padding-right: 1px;
@@ -46,7 +51,10 @@
   opacity: 0.97;
 }
 
-.right-arrow-btn img {
-  width: 12px;
-  height: 14px;
+.icon-right {
+  font-size: 12px;
+}
+
+.icon-right:hover {
+  cursor: pointer;
 }

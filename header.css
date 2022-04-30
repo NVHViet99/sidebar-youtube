@@ -28,7 +28,14 @@
 
 .hamburger-menu {
   height: 24px;
-  margin: 0 24px;
+  padding: 8px;
+  background-color: #fff;
+  margin: 0px 16px;
+  border-radius: 50%;
+}
+
+.hamburger-menu:active {
+  background-color: rgb(236, 236, 236);
 }
 
 .youtube-logo {
